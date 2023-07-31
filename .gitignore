@@ -1,0 +1,60 @@
+# .gitignore for nutritionist_ai
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (e.g., virtualenv, venv, or conda environments)
+venv/
+env/
+*.venv
+*.env
+
+# Configuration files that may contain sensitive information
+config.json
+*.ini
+*.yml
+
+# Log files
+*.log
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm, VS Code, and other editors or IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store  # For Mac
+Thumbs.db  # For Windows
+Desktop.ini # For Windows
+
+# Other files and directories to ignore
+*.bak
+*.cache
+*.spec
+node_modules/
+db.sqlite3
+*.pem
